@@ -1,6 +1,9 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+.text-alignment {
+  text-align: center;
+}
 /* Header Section Css */
 .header-area {
   display: flex;
@@ -15,10 +18,11 @@ body {
   padding-right: 20px;
 }
 .half-width h1 {
-  font-size: 45px;
+  font-size: 50px;
   margin-top: 130px;
-  font-weight: bold;
+  font-weight: 700;
   color: #575757;
+  line-height: 1.6;
 }
 .text-stop-design {
   background: linear-gradient(to right, rgb(253, 157, 67), rgb(253, 136, 58));
@@ -49,7 +53,7 @@ body {
   display: flex;
   background-image: url("/images/about-us-bg.png");
   background-size: 100%;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 .div-container {
   width: 50%;
@@ -59,13 +63,55 @@ body {
 
 .div-container img {
   width: 133%;
+  padding-right: 200px;
 }
-.div-container h1 {
-  margin-top: 90px;
+.div-container h2 {
+  margin-top: 77px;
   color: #707070;
-  font-size: 30px;
+  font-size: 37px;
 }
 .div-container p {
   margin-right: 70px;
   padding-bottom: 80px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Recipe Section Css */
+.recipe-area {
+  margin-top: 80px;
+}
+.recipe-area h1 {
+  text-align: center;
+  color: #707070;
+  font-size: 37px;
+}
+#paragraph-design {
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.recipe-container {
+  display: flex;
+  margin-left: 50px;
+}
+.card {
+  width: 350px;
+  margin: 35px;
+  margin-right: 25px;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+  border-radius: 20px;
+}
+.img-style {
+  width: 89%;
+  padding: 15px;
+  margin-left: 4px;
+}
+.card-body {
+  padding: 15px;
+}
+.card-description {
+  line-height: 1.6;
 }
