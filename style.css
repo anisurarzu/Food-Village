@@ -24,12 +24,12 @@ body {
   color: #575757;
   line-height: 1.6;
 }
-/* .text-stop-design {
+.text-stop-design {
   background: linear-gradient(to right, rgb(253, 157, 67), rgb(253, 136, 58));
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-} */
+}
 .half-width p {
   color: #828282;
   font-weight: medium;
@@ -51,7 +51,7 @@ body {
 /* About Us Section Css */
 .about-us-area {
   display: flex;
-  background-image: url("/images/about-us-bg.png");
+  background-image: url("images/about-us-bg.png");
   background-size: 100%;
   margin-top: 150px;
 }
