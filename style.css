@@ -118,7 +118,7 @@ body {
 }
 /* Contact Us SEction */
 
-#contact-title {
+.title-style {
   text-align: center;
   font-size: 37px;
   color: #707070;
@@ -184,6 +184,22 @@ input {
   color: #fd6f35;
 
   padding-left: 10px;
+}
+
+/* Follow Us Section Design */
+#logo {
+  width: 10%;
+  margin-left: 600px;
+}
+.social-icon {
+  width: 200px;
+  display: flex;
+  list-style: none;
+  margin-left: 525px;
+  padding-bottom: 20px;
+}
+.social-icon img {
+  width: 100%;
 }
 
 /* Footer Area Css */
