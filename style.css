@@ -24,7 +24,7 @@ body {
   color: #575757;
   line-height: 1.6;
 }
-.text-stop-design {
+.text-style {
   background: linear-gradient(to right, rgb(253, 157, 67), rgb(253, 136, 58));
   color: transparent;
   -webkit-background-clip: text;
@@ -91,6 +91,7 @@ body {
   text-align: center;
   padding-left: 25%;
   padding-right: 25%;
+  line-height: 1.6;
 }
 .recipe-container {
   display: flex;
@@ -114,4 +115,19 @@ body {
 }
 .card-description {
   line-height: 1.6;
+}
+/* Footer Area Css */
+#footer-container {
+  background-color: #0b0d17;
+  text-align: center;
+  height: 230px;
+}
+#footer-container h2 {
+  padding-top: 25px;
+  padding-bottom: 20px;
+  color: #5b5b5b;
+  font-size: 27px;
+}
+small {
+  color: white;
 }
